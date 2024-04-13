@@ -17,7 +17,7 @@ DWORD WINAPI ThreadProc(LPVOID lpParameter){
 int main(){
     count = 0;
     cout << "count 初始值为：" << count << endl << endl;
-    HANDLE hEevent = CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
+    HANDLE hEvent = CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
     WaitForSingleObject(hEvent, 5000);
     CloseHandle(hEvent);
     cout << "新线程结束\n" << endl;
