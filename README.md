@@ -6,7 +6,7 @@
 1. 该项目中的任何错误都可以进行指出和更改，push代码之间建议先进行一次pull，或者大家可以在Issues中指出。
 2. 由于每一届的内容不一定一样，大家仔细对比，不一样也是可以借鉴的。
 ## 仓库推荐
-西电计算机课程经验分享：https://github.com/baolintian/XDU_CS_Learning.git
-西安电子科技大学计算机科学与技术课程资源：https://github.com/SincereXIA/XidianCS.git
-XDU-CS-Resources: https://github.com/MQguer/XDU-CS-Resources.git
+西电计算机课程经验分享：https://github.com/baolintian/XDU_CS_Learning.git  
+西安电子科技大学计算机科学与技术课程资源：https://github.com/SincereXIA/XidianCS.git  
+XDU-CS-Resources: https://github.com/MQguer/XDU-CS-Resources.git  
 
