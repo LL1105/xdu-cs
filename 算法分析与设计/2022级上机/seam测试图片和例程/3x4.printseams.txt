@@ -1,0 +1,46 @@
+3x4.png (3-by-4 image)
+
+The energy[][] matrix gives the dual-gradient energy of each pixel.
+
+The distTo[][] matrix gives the energy of the minimum energy path from
+a pixel in the top-most row (or left-most column) to each pixel.
+
+The asterisks denote the minimum energy vertical (or horizontal) seam.
+
+-----------------------------------------------------
+
+vertical seam: { 0, 0, 0, 0 }
+
+energy[][]:
+ 144.25*  228.08   144.25  
+ 144.25*  228.53   145.67  
+ 144.25*  228.09   144.25  
+ 144.25*  228.53   145.67  
+
+distTo[][]:
+ 144.25*  228.08   144.25  
+ 288.50*  372.78   289.92  
+ 432.75*  516.59   434.17  
+ 577.00*  661.28   579.84  
+
+total energy of vertical seam = 577.002600
+
+-----------------------------------------------------
+
+horizontal seam: { 0, 0, 0 }
+
+energy[][]:
+ 144.25*  228.08*  144.25* 
+ 144.25   228.53   145.67  
+ 144.25   228.09   144.25  
+ 144.25   228.53   145.67  
+
+distTo[][]:
+ 144.25*  372.33*  516.58* 
+ 144.25   372.78   518.00  
+ 144.25   372.34   516.59  
+ 144.25   372.78   518.01  
+
+total energy of horizontal seam = 516.578500
+
+-----------------------------------------------------
